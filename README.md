@@ -1,5 +1,5 @@
 # AdventureNusantara
-Alasan Kami memutuskan untuk membuat game ini dikarenakan budaya indonesia
+Alasan Saya memutuskan untuk membuat game ini dikarenakan budaya indonesia
 yang sudah mulai terlupakan dan tidak dilestarikan kembali. Dengan dasar
 demikian kami memutuskan untuk membuat game Nusantara Adventure agar
 para pemuda pemudi indonesia dapat belajar kembali mengenai budaya di
