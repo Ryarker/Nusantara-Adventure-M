@@ -1,0 +1,127 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Ground",
+            "id": "c87eb64c-6f76-4e28-9101-c0608a28c6ba",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "00e8fe05-9d88-4325-8e98-674dd56e3d3e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jumping",
+                    "type": "Value",
+                    "id": "7bbf6d36-1d72-463c-a999-18efff49a250",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attacking",
+                    "type": "Value",
+                    "id": "ee9cefaa-3d9c-4637-b416-ebfbef22c6a0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interacting",
+                    "type": "Value",
+                    "id": "42c81d7c-b872-4fd5-84f4-2daa7210ecd2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "54e4c982-5dd0-4042-852c-580d5866508b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "AD keys",
+                    "id": "2d06200b-0a95-46fe-8698-45d594ba0245",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5bf6533b-edba-4841-9fd4-4f95f8854f74",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f09afb78-d6ca-401f-b46b-72ddc1ff3872",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "cb0db7c4-bdff-4b8e-86d5-fec761bda791",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jumping",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "852a5666-57c0-4c08-84ff-f3515edf425c",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attacking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c89c7d3-c8f7-4e2b-a435-c94f8f1dbd07",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interacting",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
